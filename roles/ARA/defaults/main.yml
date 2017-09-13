@@ -13,3 +13,4 @@ ara_pip_packages:
   - ara 
 
 ara_webserver_port: 9191
+ara_webserver_ip: 127.0.0.1

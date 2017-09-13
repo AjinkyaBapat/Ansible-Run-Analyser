@@ -76,7 +76,7 @@
   shell: >
     nohup {{ ara_manage_binary.stdout }} 
     runserver
-    -h {{ ansible_default_ipv4.address }} 
+    -h {{ ara_webserver_ip }} 
     -p {{ ara_webserver_port }} 
     > {{ ansible_env.HOME }}/ara-manage.log
     2>&1
@@ -86,4 +86,4 @@
 
 - name: Display ara UI URL  
   debug: 
-    msg: "Access playbook records at http://{{ ansible_default_ipv4.address }}:{{ ara_webserver_port }}"
+    msg: "Access playbook records at http://{{ ara_webserver_ip }}:{{ ara_webserver_port }}"
