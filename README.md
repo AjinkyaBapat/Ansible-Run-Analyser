@@ -1,3 +1,4 @@
+https://circleci.com/gh/AjinkyaBapat/Ansible-Run-Analyser.png?circle-token=:circle-token
 ARA
 =========
 
