@@ -1,5 +1,4 @@
-https://circleci.com/gh/AjinkyaBapat/Ansible-Run-Analyser.png?circle-token=7f1296f39d95b79a100375ad55a2299c4c77b4a7
-
+[![CircleCI](https://circleci.com/gh/AjinkyaBapat/Ansible-Run-Analyser/tree/master.svg?style=svg&circle-token=7f1296f39d95b79a100375ad55a2299c4c77b4a7)](https://circleci.com/gh/AjinkyaBapat/Ansible-Run-Analyser/tree/master)
 
 ARA
 =========
