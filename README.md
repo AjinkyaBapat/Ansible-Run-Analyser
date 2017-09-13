@@ -4,7 +4,7 @@ ARA
 =========
 
 Ansible role to install "ARA" on your system.
-Just add this folder to your "roles" folder and include it in your playbook.
+Clone this repo & run Playbook.yml. That's it!
 
 Requirements
 ------------
