@@ -1,0 +1,10 @@
+version: 2
+jobs:
+   build:
+     docker:
+       - image: williamyeh/ansible:ubuntu16.04
+     steps:
+       - checkout
+       - run: ansible --version
+       - run: ansible-playbook SamplePlaybook.yml
+     
