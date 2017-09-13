@@ -6,5 +6,5 @@ jobs:
      steps:
        - checkout
        - run: ansible --version
-       - run: ansible-playbook SamplePlaybook.yml
+       - run: ansible-playbook ~/project/SamplePlaybook.yml
      
