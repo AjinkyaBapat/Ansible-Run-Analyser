@@ -3,18 +3,23 @@
 ARA
 =========
 
-Ansible role to install "ARA" on your system.
-Clone this repo & run Playbook.yml. That's it!
+Ansible role to install "ARA" on your system.  
+Clone this repo & run `Playbook.yml`. That's it!
+
+`ansible-playbook --ask-become-pass Playbook.yml`
 
 Requirements
 ------------
 
-None
+An operating system with `apt` based package management (e.g., Debian, Ubuntu, etc.).
 
 Role Variables
 --------------
 
-ara_webserver_port : Port to be used for ARA
+Role variables are stored in `roles/ARA/defaults/main.yml`
+
+* ara_webserver_port : Port to be used for ARA. Defaults to `9191`.
+* ara_webserver_ip: IP address to be used for ARA. Defaults to the value of `ansible_default_ipv4` fact.
 
 Dependencies
 ------------
